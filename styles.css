@@ -1,52 +1,53 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Legacy Path Rentals LLC</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: #f5f7f9;
+    color: #222;
+}
 
-<body>
+h1 {
+    text-align: center;
+    color: #1f4d3a;
+    font-size: 3rem;
+}
 
-<h1>Legacy Path Rentals LLC</h1>
-<p>Event Equipment & Vehicle Rentals</p>
+h2 {
+    color: #1f4d3a;
+    margin-top: 40px;
+}
 
-<h2>Chair Rentals</h2>
-<img src="Images/chair.jpg.jpeg" width="300">
-<img src="Images/chairs-group.jpg.jpeg" width="300">
+p {
+    line-height: 1.6;
+}
 
-<h2>Table Rentals</h2>
-<img src="Images/table-6ft.jpg.jpeg" width="300">
-<img src="Images/table-8ft.jpg.jpeg" width="300">
-<img src="Images/round-table.jpg.jpeg" width="300">
+img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+}
 
-<h2>Tent Rentals</h2>
-<img src="Images/10' x 10' tent.jpeg" width="300">
-<img src="Images/20' x 20' tent.main jpeg.jpeg" width="300">
-<img src="Images/20' x 20' tent.open jpeg.jpeg" width="300">
-<img src="Images/20' x 20' tent.side.jpg.jpeg" width="300">
+ul {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+}
 
-<h2>Pricing</h2>
+li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
 
-<ul>
-    <li>Chairs - $2 each</li>
-    <li>6 ft Tables - $10 each</li>
-    <li>8 ft Tables - $11 each</li>
-    <li>60 inch Round Tables - $13 each</li>
-    <li>10x10 Tent - $50</li>
-    <li>20x20 High Peak Tent - Call for quote</li>
-</ul>
+a {
+    color: #1f4d3a;
+    text-decoration: none;
+}
 
-<h2>Service Areas</h2>
-
-<p>
-Fayetteville, Fort Bragg, Hope Mills, Spring Lake,
-Raeford, Cameron, Sanford, Clinton, Lumberton,
-Saint Pauls and surrounding areas.
-</p>
-
-<h2>Contact</h2>
-
-<p>Email: info@legacypathrentals.com</p>
-
-</body>
-</html>
+a:hover {
+    text-decoration: underline;
+}
