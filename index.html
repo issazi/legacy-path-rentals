@@ -1,52 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Legacy Path Rentals LLC</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#17382a" />
+  <title>Legacy Path Rentals LLC | Event Equipment & Vehicle Rentals</title>
+  <meta name="description" content="Rent chairs, tables, tents, and vehicles in Fayetteville, Fort Bragg, Hope Mills, Spring Lake, Raeford, Cameron, Sanford, Clinton, Lumberton, Saint Pauls, and surrounding areas." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <header class="site-header" id="home">
+    <nav class="nav container">
+      <a class="brand" href="#home">
+        <span class="brand-mark">LP</span>
+        <span><strong>Legacy Path Rentals</strong><small>Event Equipment & Vehicle Rentals</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#rentals">Rentals</a><a href="#pricing">Pricing</a><a href="#gallery">Gallery</a><a href="#booking">Book</a><a href="#contact">Contact</a>
+      </div>
+      <a class="nav-cta" href="#booking">Book Now</a>
+    </nav>
 
-<h1>Legacy Path Rentals LLC</h1>
-<p>Event Equipment & Vehicle Rentals</p>
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Serving Fayetteville & surrounding areas</p>
+        <h1>Rent what you need. Make your event easier.</h1>
+        <p class="hero-text">Chairs, tables, tents, and vehicle rentals with straightforward pricing, flexible pickup or delivery, and responsive local service.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#booking">Start a Booking</a><a class="btn btn-light" href="#gallery">View Equipment</a></div>
+        <div class="hero-trust"><span>✓ Local service</span><span>✓ Delivery available</span><span>✓ Clear pricing</span></div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="availability-badge">Now accepting reservations</div>
+        <h2>Need a quick quote?</h2>
+        <p>Select your date, rental items, and pickup or delivery preference.</p>
+        <a class="btn btn-primary full" href="#booking">Check Availability</a>
+      </div>
+    </section>
+  </header>
 
-<h2>Chair Rentals</h2>
-<img src="Images/chair.jpg.jpeg" width="300">
-<img src="Images/chairs-group.jpg.jpeg" width="300">
+  <main>
+    <section class="section intro"><div class="container split"><div class="reveal"><p class="eyebrow dark">Simple. Reliable. Local.</p><h2>Professional rental service without the confusion.</h2></div><p class="lead reveal">Legacy Path Rentals LLC helps customers plan birthdays, graduations, church events, weddings, family gatherings, and other occasions with dependable equipment and convenient service.</p></div></section>
 
-<h2>Table Rentals</h2>
-<img src="Images/table-6ft.jpg.jpeg" width="300">
-<img src="Images/table-8ft.jpg.jpeg" width="300">
-<img src="Images/round-table.jpg.jpeg" width="300">
+    <section class="section soft" id="rentals"><div class="container">
+      <div class="section-heading reveal"><div><p class="eyebrow dark">What we rent</p><h2>Rental categories</h2></div><p>Choose individual items or combine equipment for your event.</p></div>
+      <div class="rental-grid">
+        <article class="rental-card reveal"><img src="Images/chairs-group.jpg.jpeg" alt="White folding rental chairs" /><div class="rental-card-body"><span class="card-label">Event seating</span><h3>Chair Rentals</h3><p>White folding chairs for weddings, parties, graduations, churches, and community events.</p><strong>From $2 each</strong></div></article>
+        <article class="rental-card reveal"><img src="Images/table-6ft.jpg.jpeg" alt="White six-foot folding rental table" /><div class="rental-card-body"><span class="card-label">Tables</span><h3>Table Rentals</h3><p>Six-foot, eight-foot, and round tables for meals, displays, seating, and event setups.</p><strong>From $10 each</strong></div></article>
+        <article class="rental-card reveal"><img src="Images/20' x 20' tent.side.jpg.jpeg" alt="White high-peak rental tents" /><div class="rental-card-body"><span class="card-label">Outdoor events</span><h3>Tent Rentals</h3><p>Pop-up and high-peak tents for outdoor celebrations, church functions, and special occasions.</p><strong>Custom quotes available</strong></div></article>
+        <article class="rental-card vehicle-card reveal"><div class="vehicle-art">🚗</div><div class="rental-card-body"><span class="card-label">Transportation</span><h3>Vehicle Rentals</h3><p>Short-term vehicle rentals through Turo, with additional fleet options planned.</p><strong>Pricing varies by date</strong></div></article>
+      </div>
+    </div></section>
 
-<h2>Tent Rentals</h2>
-<img src="Images/10' x 10' tent.jpeg" width="300">
-<img src="Images/20' x 20' tent.main jpeg.jpeg" width="300">
-<img src="Images/20' x 20' tent.open jpeg.jpeg" width="300">
-<img src="Images/20' x 20' tent.side.jpg.jpeg" width="300">
+    <section class="section" id="pricing"><div class="container">
+      <div class="section-heading reveal"><div><p class="eyebrow dark">Transparent pricing</p><h2>Popular rental rates</h2></div><p>Delivery, pickup, setup, and extended rental fees may be quoted separately.</p></div>
+      <div class="pricing-grid">
+        <div class="price-card reveal"><span>White Folding Chairs</span><strong>$2 each</strong></div><div class="price-card reveal"><span>6-Foot Tables</span><strong>$10 each</strong></div><div class="price-card reveal"><span>8-Foot Tables</span><strong>$11 each</strong></div><div class="price-card reveal"><span>60-Inch Round Tables</span><strong>$13 each</strong></div><div class="price-card reveal"><span>10x10 Pop-Up Tent</span><strong>$50</strong></div><div class="price-card reveal"><span>20x20 High-Peak Tent</span><strong>Request quote</strong></div>
+      </div>
+      <p class="fine-print reveal">Final pricing depends on availability, date, location, quantities, delivery distance, setup requirements, and rental duration.</p>
+    </div></section>
 
-<h2>Pricing</h2>
+    <section class="section dark-section" id="gallery"><div class="container">
+      <div class="section-heading light reveal"><div><p class="eyebrow">Real inventory</p><h2>Equipment gallery</h2></div><p>Photos of the types of equipment available through Legacy Path Rentals.</p></div>
+      <div class="gallery-grid">
+        <figure class="gallery-item reveal"><img src="Images/chair.jpg.jpeg" alt="Single white folding rental chair" /><figcaption>White Folding Chair</figcaption></figure>
+        <figure class="gallery-item reveal"><img src="Images/chairs-group.jpg.jpeg" alt="Group of white folding rental chairs" /><figcaption>Chair Inventory</figcaption></figure>
+        <figure class="gallery-item reveal"><img src="Images/table-6ft.jpg.jpeg" alt="Six-foot folding table" /><figcaption>6-Foot Folding Table</figcaption></figure>
+        <figure class="gallery-item reveal"><img src="Images/table-8ft.jpg.jpeg" alt="Eight-foot folding table" /><figcaption>8-Foot Folding Table</figcaption></figure>
+        <figure class="gallery-item reveal"><img src="Images/round-table.jpg.jpeg" alt="Round rental table" /><figcaption>60-Inch Round Table</figcaption></figure>
+        <figure class="gallery-item reveal"><img src="Images/10' x 10' tent.jpeg" alt="White 10 by 10 rental tent" /><figcaption>10x10 Tent</figcaption></figure>
+        <figure class="gallery-item reveal"><img src="Images/20' x 20' tent.main jpeg.jpeg" alt="High-peak tent setup" /><figcaption>High-Peak Tent Setup</figcaption></figure>
+        <figure class="gallery-item reveal"><img src="Images/20' x 20' tent.open jpeg.jpeg" alt="Open-sided event tents" /><figcaption>Open-Sided Setup</figcaption></figure>
+      </div>
+    </div></section>
 
-<ul>
-    <li>Chairs - $2 each</li>
-    <li>6 ft Tables - $10 each</li>
-    <li>8 ft Tables - $11 each</li>
-    <li>60 inch Round Tables - $13 each</li>
-    <li>10x10 Tent - $50</li>
-    <li>20x20 High Peak Tent - Call for quote</li>
-</ul>
+    <section class="section booking-section" id="booking"><div class="container booking-layout">
+      <div class="booking-info reveal"><p class="eyebrow dark">Request a reservation</p><h2>Build your rental request.</h2><p>Select your date, quantities, and pickup or delivery preference. The estimated equipment subtotal updates automatically. Your request is not final until availability and delivery details are confirmed.</p><div class="booking-points"><div><span>1</span><p>Choose your date and items.</p></div><div><span>2</span><p>Select pickup or delivery.</p></div><div><span>3</span><p>Email your request for confirmation.</p></div></div></div>
+      <form class="booking-form reveal" id="bookingForm">
+        <div class="form-grid two"><label>Full name<input type="text" id="customerName" required /></label><label>Phone number<input type="tel" id="customerPhone" required /></label></div>
+        <div class="form-grid two"><label>Email<input type="email" id="customerEmail" /></label><label>Rental date<input type="date" id="rentalDate" required /></label></div>
+        <div class="form-grid two"><label>Fulfillment<select id="fulfillment" required><option value="">Choose one</option><option value="Pickup">Pickup</option><option value="Delivery">Delivery</option></select></label><label>Event city or address<input type="text" id="eventLocation" placeholder="Required for delivery" /></label></div>
+        <fieldset><legend>Equipment quantities</legend><div class="quantity-grid"><label>Chairs ($2)<input type="number" min="0" value="0" id="chairsQty" data-price="2" /></label><label>6-ft tables ($10)<input type="number" min="0" value="0" id="table6Qty" data-price="10" /></label><label>8-ft tables ($11)<input type="number" min="0" value="0" id="table8Qty" data-price="11" /></label><label>Round tables ($13)<input type="number" min="0" value="0" id="roundQty" data-price="13" /></label><label>10x10 tents ($50)<input type="number" min="0" value="0" id="tent10Qty" data-price="50" /></label><label>20x20 tent<input type="number" min="0" value="0" id="tent20Qty" data-price="0" /></label></div></fieldset>
+        <div class="form-grid two"><label>Preferred payment method<select id="paymentMethod"><option>Cash</option><option>Cash App</option><option>Zelle</option><option>Card payment after confirmation</option></select></label><label>Reservation preference<select id="paymentTiming"><option>Pay deposit after confirmation</option><option>Pay in full after confirmation</option><option>Discuss payment first</option></select></label></div>
+        <label>Additional details<textarea id="bookingNotes" rows="4" placeholder="Setup needs, pickup time, event type, vehicle request, or other details"></textarea></label>
+        <div class="estimate-box"><span>Estimated equipment subtotal</span><strong id="estimateTotal">$0.00</strong><small>Delivery, setup, 20x20 tent, vehicle rentals, deposits, and taxes are not included.</small></div>
+        <button class="btn btn-primary full" type="submit">Email Booking Request</button><p class="form-note">This button opens your email app with the booking information prepared for you.</p>
+      </form>
+    </div></section>
 
-<h2>Service Areas</h2>
+    <section class="section areas-section"><div class="container"><div class="areas-card reveal"><p class="eyebrow">Service area</p><h2>Serving Fayetteville and nearby communities.</h2><p>Fayetteville, Fort Bragg, Hope Mills, Spring Lake, Raeford, Cameron, Sanford, Clinton, Lumberton, Saint Pauls, and surrounding areas.</p></div></div></section>
 
-<p>
-Fayetteville, Fort Bragg, Hope Mills, Spring Lake,
-Raeford, Cameron, Sanford, Clinton, Lumberton,
-Saint Pauls and surrounding areas.
-</p>
+    <section class="section faq-section"><div class="container"><div class="section-heading reveal"><div><p class="eyebrow dark">Helpful information</p><h2>Frequently asked questions</h2></div></div><div class="faq-list"><details class="reveal"><summary>Do you offer delivery?</summary><p>Yes. Delivery charges depend on distance, order size, equipment type, and setup needs.</p></details><details class="reveal"><summary>Is a deposit required?</summary><p>A reservation deposit may be required depending on the order, date, and equipment requested.</p></details><details class="reveal"><summary>Can I pick up the equipment?</summary><p>Pickup may be available for eligible orders after the time and location are confirmed.</p></details><details class="reveal"><summary>Does submitting the form guarantee availability?</summary><p>No. Your reservation is confirmed only after Legacy Path Rentals verifies availability and payment terms.</p></details></div></div></section>
 
-<h2>Contact</h2>
+    <section class="section contact-section" id="contact"><div class="container contact-box reveal"><div><p class="eyebrow">Contact us</p><h2>Ready to plan your rental?</h2><p>Send your date, location, quantities, and pickup or delivery preference.</p></div><div class="contact-actions"><a class="btn btn-light" href="mailto:info@legacypathrentals.com">Email Us</a><a class="btn btn-outline" href="#booking">Start Booking</a></div><p class="contact-email">info@legacypathrentals.com</p></div></section>
+  </main>
 
-<p>Email: info@legacypathrentals.com</p>
-
+  <footer><div class="container footer-grid"><div><strong>Legacy Path Rentals LLC</strong><p>Event Equipment & Vehicle Rentals</p></div><div><p>Fayetteville, North Carolina</p><p>info@legacypathrentals.com</p></div></div><div class="container copyright">© 2026 Legacy Path Rentals LLC. All rights reserved.</div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
