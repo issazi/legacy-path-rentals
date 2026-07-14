@@ -1,139 +1,137 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Legacy Path Rentals LLC | Event Equipment & Vehicle Rentals</title>
-  <meta name="description" content="Legacy Path Rentals LLC provides event equipment rentals and vehicle rentals in Fayetteville, Fort Bragg, Hope Mills, Spring Lake, Raeford, Cameron, Sanford, Clinton, Lumberton, Saint Pauls, and surrounding areas." />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav">
-      <div class="brand">
-        <div class="logo-mark">LP</div>
-        <div>
-          <div class="logo-text">Legacy Path Rentals</div>
-          <div class="tagline">Event Equipment & Vehicle Rentals</div>
-        </div>
-      </div>
-      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-      <div class="nav-links" id="navLinks">
-        <a href="#services">Services</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#areas">Service Areas</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+/* Equipment photo and gallery styles */
 
-    <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">Fayetteville, NC Rental Services</p>
-        <h1>Event equipment and vehicle rentals made simple.</h1>
-        <p class="hero-subtitle">
-          Chairs, tables, tents, and vehicle rental options for family events, church gatherings,
-          business events, private parties, and short-term transportation needs.
-        </p>
-        <div class="hero-buttons">
-          <a class="btn primary" href="#contact">Request a Quote</a>
-          <a class="btn secondary" href="#pricing">View Pricing</a>
-        </div>
-      </div>
-    </section>
-  </header>
+.section-description {
+max-width: 760px;
+margin-bottom: 28px;
+color: #5c6773;
+}
 
-  <main>
-    <section class="section intro">
-      <h2>Reliable rentals with clear pricing and professional service.</h2>
-      <p>
-        Legacy Path Rentals LLC serves customers who need dependable rental equipment and
-        transportation options without confusion. We focus on communication, availability,
-        delivery coordination, and customer satisfaction.
-      </p>
-    </section>
+.card {
+padding: 0;
+overflow: hidden;
+}
 
-    <section class="section cards" id="services">
-      <h2>Rental Services</h2>
-      <div class="card-grid">
-        <article class="card">
-          <div class="icon">🪑</div>
-          <h3>Chair Rentals</h3>
-          <p>Affordable seating for birthdays, graduations, church events, weddings, and community gatherings.</p>
-        </article>
-        <article class="card">
-          <div class="icon">▭</div>
-          <h3>Table Rentals</h3>
-          <p>6-foot, 8-foot, and round table options for food service, displays, and event setups.</p>
-        </article>
-        <article class="card">
-          <div class="icon">⛺</div>
-          <h3>Tent Rentals</h3>
-          <p>Pop-up and larger tent options to help keep your guests comfortable during outdoor events.</p>
-        </article>
-        <article class="card">
-          <div class="icon">🚗</div>
-          <h3>Vehicle Rentals</h3>
-          <p>Short-term vehicle rental options through Turo and future fleet rental services.</p>
-        </article>
-      </div>
-    </section>
+.card-image {
+display: block;
+width: 100%;
+height: 250px;
+object-fit: cover;
+background: #ffffff;
+}
 
-    <section class="section pricing" id="pricing">
-      <h2>Sample Pricing</h2>
-      <p class="note">Final pricing may vary based on date, distance, availability, setup needs, and rental duration.</p>
-      <div class="price-grid">
-        <div class="price-item"><span>Chairs</span><strong>$2 each</strong></div>
-        <div class="price-item"><span>6-ft Tables</span><strong>$10 each</strong></div>
-        <div class="price-item"><span>8-ft Tables</span><strong>$12 each</strong></div>
-        <div class="price-item"><span>60-inch Round Tables</span><strong>$15 each</strong></div>
-        <div class="price-item"><span>10x10 Pop-up Tent</span><strong>$60</strong></div>
-        <div class="price-item"><span>20x20 High Peak Tent</span><strong>$300 incl. setup</strong></div>
-      </div>
-    </section>
+.card-content {
+padding: 24px;
+}
 
-    <section class="section areas" id="areas">
-      <h2>Service Areas</h2>
-      <p>
-        Serving Fayetteville, Fort Bragg, Hope Mills, Spring Lake, Raeford, Cameron, Sanford,
-        Clinton, Lumberton, Saint Pauls, and surrounding areas.
-      </p>
-    </section>
+.service-price {
+margin-top: 18px;
+color: #17382a;
+font-weight: 800;
+}
 
-    <section class="section process">
-      <h2>How It Works</h2>
-      <div class="process-grid">
-        <div><span>1</span><h3>Request a Quote</h3><p>Tell us your date, location, and items needed.</p></div>
-        <div><span>2</span><h3>Confirm Availability</h3><p>We confirm pricing, delivery, and setup details.</p></div>
-        <div><span>3</span><h3>Enjoy Your Event</h3><p>We help make the rental process simple and organized.</p></div>
-      </div>
-    </section>
+.vehicle-card {
+display: flex;
+flex-direction: column;
+}
 
-    <section class="section contact" id="contact">
-      <h2>Request a Quote</h2>
-      <p>Send your event date, location, items needed, and preferred delivery time.</p>
-      <div class="contact-card">
-        <p><strong>Email:</strong> <a href="mailto:info@legacypathrentals.com">info@legacypathrentals.com</a></p>
-        <p><strong>Location:</strong> Fayetteville, North Carolina</p>
-      </div>
+.vehicle-placeholder {
+width: 100%;
+height: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
+background:
+linear-gradient(135deg, #17382a, #285b46);
+color: white;
+font-size: 5rem;
+}
 
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <input type="text" name="name" placeholder="Your name" required />
-        <input type="tel" name="phone" placeholder="Phone number" required />
-        <input type="email" name="email" placeholder="Email address" />
-        <input type="text" name="event_date" placeholder="Event date" />
-        <input type="text" name="location" placeholder="Event location/city" />
-        <textarea name="message" rows="5" placeholder="What items do you need? Chairs, tables, tents, vehicle rental, etc."></textarea>
-        <button type="submit">Send Request</button>
-      </form>
-      <p class="small">Form setup note: replace the Formspree link with your real Formspree form ID when ready.</p>
-    </section>
-  </main>
+.pricing-disclaimer {
+margin-top: 24px;
+color: #5c6773;
+font-size: 0.95rem;
+}
 
-  <footer>
-    <p>© 2026 Legacy Path Rentals LLC. All rights reserved.</p>
-    <p>Event Equipment & Vehicle Rentals | Fayetteville, NC</p>
-  </footer>
+.gallery {
+padding-top: 70px;
+padding-bottom: 70px;
+}
 
-  <script src="script.js"></script>
-</body>
-</html>
+.section-heading {
+display: flex;
+justify-content: space-between;
+align-items: end;
+gap: 40px;
+margin-bottom: 30px;
+}
+
+.section-heading > p {
+max-width: 540px;
+color: #5c6773;
+}
+
+.dark-eyebrow {
+color: #c27a2c;
+margin-bottom: 4px;
+}
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+}
+
+.gallery-item {
+margin: 0;
+overflow: hidden;
+background: white;
+border-radius: 14px;
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.gallery-item img {
+display: block;
+width: 100%;
+height: 240px;
+object-fit: cover;
+background: white;
+}
+
+.gallery-item figcaption {
+padding: 16px 18px;
+color: #17382a;
+font-weight: 800;
+}
+
+.delivery-message {
+margin-top: 18px;
+color: white !important;
+font-weight: 400 !important;
+}
+
+@media (max-width: 1050px) {
+.card-grid,
+.gallery-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (max-width: 700px) {
+.card-grid,
+.gallery-grid {
+grid-template-columns: 1fr;
+}
+
+.section-heading {
+display: block;
+}
+
+.card-image,
+.vehicle-placeholder {
+height: 230px;
+}
+
+.gallery-item img {
+height: 260px;
+}
+}
