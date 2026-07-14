@@ -1,291 +1,52 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Legacy Path Rentals LLC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-html {
-  scroll-behavior: smooth;
-}
+<body>
 
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #1f2933;
-  background: #f7f5ef;
-  line-height: 1.6;
-}
+<h1>Legacy Path Rentals LLC</h1>
+<p>Event Equipment & Vehicle Rentals</p>
 
-.site-header {
-  background: linear-gradient(rgba(22, 50, 38, 0.88), rgba(22, 50, 38, 0.88)),
-    url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1600&q=80');
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
+<h2>Chair Rentals</h2>
+<img src="Images/chair.jpg.jpeg" width="300">
+<img src="Images/chairs-group.jpg.jpeg" width="300">
 
-.nav {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 18px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+<h2>Table Rentals</h2>
+<img src="Images/table-6ft.jpg.jpeg" width="300">
+<img src="Images/table-8ft.jpg.jpeg" width="300">
+<img src="Images/round-table.jpg.jpeg" width="300">
 
-.brand {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
+<h2>Tent Rentals</h2>
+<img src="Images/10' x 10' tent.jpeg" width="300">
+<img src="Images/20' x 20' tent.main jpeg.jpeg" width="300">
+<img src="Images/20' x 20' tent.open jpeg.jpeg" width="300">
+<img src="Images/20' x 20' tent.side.jpg.jpeg" width="300">
 
-.logo-mark {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  background: #c27a2c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  color: white;
-}
+<h2>Pricing</h2>
 
-.logo-text {
-  font-weight: 800;
-  font-size: 1.2rem;
-}
+<ul>
+    <li>Chairs - $2 each</li>
+    <li>6 ft Tables - $10 each</li>
+    <li>8 ft Tables - $11 each</li>
+    <li>60 inch Round Tables - $13 each</li>
+    <li>10x10 Tent - $50</li>
+    <li>20x20 High Peak Tent - Call for quote</li>
+</ul>
 
-.tagline {
-  font-size: 0.78rem;
-  color: #f3c76a;
-}
+<h2>Service Areas</h2>
 
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
+<p>
+Fayetteville, Fort Bragg, Hope Mills, Spring Lake,
+Raeford, Cameron, Sanford, Clinton, Lumberton,
+Saint Pauls and surrounding areas.
+</p>
 
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-}
+<h2>Contact</h2>
 
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.7rem;
-}
+<p>Email: info@legacypathrentals.com</p>
 
-.hero {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 95px 24px 115px;
-}
-
-.hero-content {
-  max-width: 760px;
-}
-
-.eyebrow {
-  color: #f3c76a;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-h1 {
-  font-size: clamp(2.4rem, 5vw, 4.7rem);
-  line-height: 1.04;
-  margin: 10px 0 20px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 12px;
-}
-
-.hero-subtitle {
-  font-size: 1.18rem;
-  max-width: 720px;
-}
-
-.hero-buttons {
-  margin-top: 28px;
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-}
-
-.btn, button {
-  display: inline-block;
-  border: none;
-  border-radius: 8px;
-  padding: 13px 22px;
-  font-weight: 700;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.primary, form button {
-  background: #c27a2c;
-  color: white;
-}
-
-.secondary {
-  background: white;
-  color: #17382a;
-}
-
-.section {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 60px 24px;
-}
-
-.intro {
-  text-align: center;
-  max-width: 900px;
-}
-
-.card-grid, .price-grid, .process-grid {
-  display: grid;
-  gap: 18px;
-}
-
-.card-grid {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.card, .price-item, .contact form, .contact-card, .process-grid > div {
-  background: white;
-  border-radius: 14px;
-  padding: 24px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-}
-
-.icon {
-  font-size: 2rem;
-}
-
-.card h3, .process h3 {
-  color: #17382a;
-  margin-bottom: 8px;
-}
-
-.price-grid {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.price-item {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  align-items: center;
-}
-
-.price-item strong {
-  color: #17382a;
-}
-
-.note, .small {
-  color: #5c6773;
-}
-
-.areas {
-  background: #17382a;
-  color: white;
-  max-width: none;
-  padding-left: max(24px, calc((100% - 1150px) / 2 + 24px));
-  padding-right: max(24px, calc((100% - 1150px) / 2 + 24px));
-}
-
-.areas p {
-  color: #f3c76a;
-  font-weight: 700;
-  max-width: 920px;
-}
-
-.process-grid {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.process-grid span {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: #c27a2c;
-  color: white;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 800;
-}
-
-.contact {
-  max-width: 850px;
-}
-
-.contact-card {
-  margin: 18px 0;
-}
-
-.contact-card a {
-  color: #17382a;
-  font-weight: 700;
-}
-
-form {
-  display: grid;
-  gap: 14px;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 14px;
-  border: 1px solid #d5d9de;
-  border-radius: 8px;
-  font: inherit;
-}
-
-footer {
-  background: #111827;
-  color: white;
-  text-align: center;
-  padding: 28px 24px;
-}
-
-@media (max-width: 900px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right: 0;
-    background: #17382a;
-    padding: 18px 24px;
-    flex-direction: column;
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-
-  .card-grid, .price-grid, .process-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero {
-    padding-top: 70px;
-    padding-bottom: 80px;
-  }
-
-  .price-item {
-    display: block;
-  }
-}
+</body>
+</html>
